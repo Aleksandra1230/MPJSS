@@ -1,0 +1,59 @@
+
+body {
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+}
+
+.item {
+  width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.index {
+  width: 250px;
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid black;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 13px;
+  display: flex;
+  box-shadow: 0 14px 25px rgba(0, 0, 0, 0.45), 0 10px 10px rgba(0, 0, 0, 0.30);
+  cursor: pointer;
+}
+.index:hover {
+  background-color: #21D4FD;
+  background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+  transition: .30s;
+  transform: rotateY(2grad);
+}
+
+
+.index h4 {
+  height: 70px;
+}
+
+
+.userComments {
+  width: 210px;
+  height: 200px;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 2px solid black;
+  border-radius: 15px;
+  align-items: center;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  cursor: pointer;
+}
+
+.cardComments h4 .cardComments h5 {
+  margin: 5px;
+}
+
